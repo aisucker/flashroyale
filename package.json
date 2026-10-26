@@ -1,0 +1,7 @@
+{
+  "name": "fortress-arena", "version": "1.0.0", "private": true,
+  "description": "Арена крепостей — автономная сетевая игра для домашней сети",
+  "scripts": { "build": "node scripts/build.mjs", "start": "node scripts/build.mjs && node dist/server.js", "test": "node scripts/build.mjs && node --test dist/tests/*.test.js" },
+  "dependencies": { "qrcode": "^1.5.4", "ws": "^8.18.3" },
+  "devDependencies": { "@types/node": "^22.19.0", "@types/qrcode": "^1.5.6", "@types/ws": "^8.18.1", "esbuild": "^0.25.12", "typescript": "^5.9.3" }
+}
